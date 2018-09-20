@@ -7,7 +7,7 @@ class ExampleKotlinTest {
     @DisplayName("kotlin test")
     @Test
     internal fun `I am a test`() {
-        HelloKotlin.hi()
+        HelloKotlin().callJava()
         assertThat(true).isTrue()
     }
 }

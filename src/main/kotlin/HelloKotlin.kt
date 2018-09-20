@@ -1,8 +1,8 @@
 class HelloKotlin {
-    companion object {
-        fun hi() {
-            val list = listOf("hi kotlin list")
-            list.forEach { println(it) }
-        }
+    fun callKotlin() {
+        println("kotlin says ha")
+    }
+    fun callJava() {
+        Hello().callJava()
     }
 }

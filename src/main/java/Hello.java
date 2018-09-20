@@ -1,6 +1,10 @@
 public class Hello {
 
-  public static void hi() {
-    System.out.println("hi java");
+  public void callJava() {
+    System.out.println("java says ah");
+  }
+
+  public void callKotlin() {
+    new HelloKotlin().callKotlin();
   }
 }
